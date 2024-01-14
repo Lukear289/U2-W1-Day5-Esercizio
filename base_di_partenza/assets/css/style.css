@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#logo {
+  margin-left: 70px;
+}
+ul {
+  display: inline;
+  justify-self: flex-end;
+  list-style: none;
+}
+ul li {
+  display: inline;
+  text-wrap: nowrap;
+}
+li {
+  margin-left: 20px;
+}
+button {
+  margin-right: 15px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-right: 70px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+svg {
+  position: absolute;
+}
+#StayCurious {
+  display: flex;
+  position: relative;
+  width: 100%;
+  background-color: #ffc017;
+}
