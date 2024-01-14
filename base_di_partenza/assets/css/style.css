@@ -73,3 +73,22 @@ main p {
   top: 0;
   right: 0;
 }
+aside {
+  margin: 7% 10% 0 10%;
+}
+
+#trendingFlex {
+  display: flex;
+  align-items: center;
+}
+.trendingWrapper {
+  display: flex;
+}
+.trendingCard {
+  display: flex;
+  width: 30%;
+}
+.trendingContent {
+  display: flex;
+  flex-direction: column;
+}
