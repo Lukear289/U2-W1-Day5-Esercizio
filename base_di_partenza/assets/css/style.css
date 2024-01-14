@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@0,8..144;1,8..144&family=Spectral&display=swap');
 
-html {
-  background-color: #ffc017;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -13,21 +9,10 @@ nav {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'roboto', sans-serif;
-
-  /* position sticky--------------------------------------------------------------------------- */
 }
+
 #logo {
   margin-left: 70px;
-}
-
-#m {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 750px;
-  width: 750px;
-  transform: translateY(-180px);
-  z-index: -1;
 }
 
 ul {
@@ -47,9 +32,9 @@ li {
 
 button {
   margin-right: 15px;
-  border-radius: 15px;
-  width: 90px;
-  height: 30px;
+  border-radius: 25px;
+  width: 170px;
+  height: 40px;
   background-color: black;
   color: white;
   margin-right: 70px;
@@ -60,50 +45,31 @@ a {
   color: black;
 }
 
-svg {
-  position: absolute;
-}
+/* / -------------------   Hero   ----------------------- */
 
-#StayCurious {
+main {
+  position: relative;
+  height: 60vh;
   display: flex;
   flex-direction: column;
+  align-items: baseline;
   justify-content: center;
-  position: relative;
-  width: 100%;
-  height: 70%;
-}
-#StayCurious,
-svg {
+  padding-left: 5rem;
+  border-bottom: 1px solid black;
   background-color: #ffc017;
 }
-h2 {
-  font-size: 5em;
-  position: relative;
-  font-weight: bold;
+
+main h1 {
+  font-size: 7rem;
 }
-#HeroWrapper {
-  margin: auto 0;
+
+main p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+#m {
   position: absolute;
-  top: 150px;
-  left: 100px;
-}
-#HeroWrapper p {
-  font-size: 25px;
-  padding-top: 15px;
-  font-weight: bold;
-}
-#HeroWrapper button {
-  border-radius: 15px;
-  width: 150px;
-  font-size: 15px;
-  position: relative;
-  top: 50px;
-  left: 20px;
-}
-#trending {
-  position: absolute;
-  bottom: 28px;
-}
-main {
-  background-color: white;
+  top: 0;
+  right: 0;
 }
