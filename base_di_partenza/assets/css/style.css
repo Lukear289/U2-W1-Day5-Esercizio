@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@0,8..144;1,8..144&family=Spectral&display=swap');
+
+html {
+  background-color: #ffc017;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -6,6 +12,7 @@ nav {
   border-bottom: 1px solid black;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'roboto', sans-serif;
 
   /* position sticky--------------------------------------------------------------------------- */
 }
@@ -64,7 +71,6 @@ svg {
   position: relative;
   width: 100%;
   height: 70%;
-  background-color: #ffc017;
 }
 #StayCurious,
 svg {
@@ -93,4 +99,11 @@ h2 {
   position: relative;
   top: 50px;
   left: 20px;
+}
+#trending {
+  position: absolute;
+  bottom: 28px;
+}
+main {
+  background-color: white;
 }
