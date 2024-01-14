@@ -6,22 +6,38 @@ nav {
   border-bottom: 1px solid black;
   padding-top: 20px;
   padding-bottom: 20px;
+
+  /* position sticky--------------------------------------------------------------------------- */
 }
 #logo {
   margin-left: 70px;
 }
+
+#m {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 750px;
+  width: 750px;
+  transform: translateY(-180px);
+  z-index: -1;
+}
+
 ul {
   display: inline;
   justify-self: flex-end;
   list-style: none;
 }
+
 ul li {
   display: inline;
   text-wrap: nowrap;
 }
+
 li {
   margin-left: 20px;
 }
+
 button {
   margin-right: 15px;
   border-radius: 15px;
@@ -31,16 +47,50 @@ button {
   color: white;
   margin-right: 70px;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
+
 svg {
   position: absolute;
 }
+
 #StayCurious {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
   width: 100%;
+  height: 70%;
   background-color: #ffc017;
+}
+#StayCurious,
+svg {
+  background-color: #ffc017;
+}
+h2 {
+  font-size: 5em;
+  position: relative;
+  font-weight: bold;
+}
+#HeroWrapper {
+  margin: auto 0;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+#HeroWrapper p {
+  font-size: 25px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+#HeroWrapper button {
+  border-radius: 15px;
+  width: 150px;
+  font-size: 15px;
+  position: relative;
+  top: 50px;
+  left: 20px;
 }
