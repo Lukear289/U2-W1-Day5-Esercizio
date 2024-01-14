@@ -103,3 +103,11 @@ aside {
   opacity: 0.25;
   margin-right: 15px;
 }
+.TrendingLine {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.TrendingLine img {
+  border-radius: 100%;
+}
